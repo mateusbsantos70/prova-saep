@@ -21,6 +21,12 @@ import java.util.Map;
 public final class Db {
 
     private static final String ARQUIVO = "database.db";
+    // 1-petshop
+    private static final String ARQUIVO_SQLITE = "petshop.db";
+    // 2-clinica-veterinaria
+    private static final String ARQUIVO_SQLITE = "clinica.db";
+    // 3-sistema-estoque
+    private static final String ARQUIVO_SQLITE = "estoque.db";
     private static final String URL = "jdbc:sqlite:" + ARQUIVO;
 
     private Db() {}
